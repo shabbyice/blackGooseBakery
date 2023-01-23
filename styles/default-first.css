@@ -1,0 +1,23 @@
+/* wider screens */
+html {
+  font-family: sans-serif;
+
+  background-color: #dbfbf1;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* narrower screens */
+@media (max-width: 600px) {
+  html {
+    background-color: #ecd6f9;
+
+    font-size: 120%;
+  }
+}
